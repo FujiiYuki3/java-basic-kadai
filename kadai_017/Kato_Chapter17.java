@@ -14,8 +14,8 @@ public abstract class Kato_Chapter17 {
 
 	public void execIntroduce() {
 		commonIntroduce();
-		System.out.println("名前は" + familyName + givenName + "です");
-		System.out.println("住所は" + address + "です");
+		System.out.println("名前は" + this.familyName + this.givenName + "です");
+		System.out.println("住所は" + this.address + "です");
 		eachIntroduce();
 	}
 
