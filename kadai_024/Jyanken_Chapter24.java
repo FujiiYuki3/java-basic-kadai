@@ -37,23 +37,23 @@ public class Jyanken_Chapter24 {
 		
 		System.out.println("自分の手は" + hand.get(getMyChoice) + ",対戦相手の手は" + hand.get(getRandom));
 		
-		if((hand.get(getMyChoice).equals("グー")) && (hand.get(getRandom).equals("グー"))) {
+		if((getMyChoice.equals("r")) && (getRandom.equals("r"))) {
 			System.out.println("あいこです");
-		}else if((hand.get(getMyChoice).equals("グー")) && (hand.get(getRandom).equals("チョキ"))) {
+		}else if((getMyChoice.equals("r")) && (getRandom.equals("s"))) {
 			System.out.println("自分の勝ちです");
-		}else if((hand.get(getMyChoice).equals("グー")) && (hand.get(getRandom).equals("パー"))) {
+		}else if((getMyChoice.equals("r")) && (getRandom.equals("p"))) {
 			System.out.println("自分の負けです");
-		}else if((hand.get(getMyChoice).equals("チョキ")) && (hand.get(getRandom).equals("チョキ"))) {
+		}else if((getMyChoice.equals("s")) && (getRandom.equals("s"))) {
 			System.out.println("あいこです");
-		}else if((hand.get(getMyChoice).equals("チョキ")) && (hand.get(getRandom).equals("パー"))) {
+		}else if((getMyChoice.equals("s")) && (getRandom.equals("p"))) {
 			System.out.println("自分の勝ちです");
-		}else if((hand.get(getMyChoice).equals("チョキ")) && (hand.get(getRandom).equals("グー"))) {
+		}else if((getMyChoice.equals("s")) && (getRandom.equals("r"))) {
 			System.out.println("自分の負けです");
-		}else if((hand.get(getMyChoice).equals("パー")) && (hand.get(getRandom).equals("パー"))) {
+		}else if((getMyChoice.equals("p")) && (getRandom.equals("p"))) {
 			System.out.println("あいこです");
-		}else if((hand.get(getMyChoice).equals("パー")) && (hand.get(getRandom).equals("グー"))) {
+		}else if((getMyChoice.equals("p")) && (getRandom.equals("r"))) {
 			System.out.println("自分の勝ちです");
-		}else if((hand.get(getMyChoice).equals("パー")) && (hand.get(getRandom).equals("チョキ"))){
+		}else if((getMyChoice.equals("p")) && (getRandom.equals("s"))){
 			System.out.println("自分の負けです");
 		}
 	}
